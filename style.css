@@ -95,6 +95,12 @@ body {
     color: hsl(257, 40%, 49%);
 }
 
+.info-area .container-info .info__button:hover {
+    color: hsl(257, 46%, 35%);
+    background-color: rgba(236, 234, 234, 0.993);
+    cursor: pointer;
+}
+
 .footer_container {
     display: flex;
     justify-content: center;
@@ -113,4 +119,14 @@ body {
 .footer_container a img {
     width: 30px;
     height: 30px;
+}
+
+.cite {
+    color: #fff;
+    font-size: 1rem;
+}
+
+.cite a {
+    color: rgb(255, 225, 53);
+    text-decoration: none;
 }
